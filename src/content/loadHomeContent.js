@@ -1,8 +1,6 @@
 function loadHomeContent() {
-  const content = document.getElementById('content');
-
-  const main = document.createElement('section');
-  main.setAttribute('id','main');
+  const main = document.getElementById('main');
+  main.innerHTML = '';
 
   const figure = document.createElement('figure');
   figure.classList.add('col');
@@ -35,8 +33,7 @@ function loadHomeContent() {
 
   main.appendChild(figure);
   main.appendChild(article);
-
-  content.appendChild(main);
+  console.log('Loaded Home');
 }
 
 export { loadHomeContent }
