@@ -85,6 +85,10 @@ em {
   padding-right: 1rem;
 }
 
+strong {
+  font-weight: 500;
+}
+
 #footer {
   width: 100%;
   text-align: center;
