@@ -1,0 +1,1 @@
+A dynamically rendered restaurant homepage using JavaScript.
