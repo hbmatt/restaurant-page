@@ -20,9 +20,9 @@ function loadHomeContent() {
   desc.setAttribute('id','desc');
 
   const para1 = document.createElement('p');
-  para1.textContent = 'Jujubes macaroon wafer cookie jelly bear claw. Caramels carrot cake dessert. Muffin candy brownie oat cake topping gummi bears fruitcake cake.'
+  para1.textContent = 'Jujubes macaroon wafer cookie jelly bear claw. Caramels carrot cake dessert. Muffin candy brownie oat cake topping gummi bears fruitcake cake.';
   const para2 = document.createElement('p');
-  para2.textContent = 'Bonbon jujubes icing pie. Apple pie sugar plum chocolate chupa chups fruitcake brownie. Cotton candy gingerbread macaroon sweet roll danish. Dessert tart jelly beans chocolate bar jelly.'
+  para2.textContent = 'Bonbon jujubes icing pie. Apple pie sugar plum chocolate chupa chups fruitcake brownie. Cotton candy gingerbread macaroon sweet roll danish. Dessert tart jelly beans chocolate bar jelly.';
 
   article.appendChild(title);
 

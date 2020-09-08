@@ -5,7 +5,7 @@ function loadFooter() {
   footer.setAttribute('id','footer');
 
   const footerItem = document.createElement('div');
-  footerItem.textContent = 'Pictures courtesy of @mitifotos and @moniqa from Unsplash.'
+  footerItem.textContent = 'Pictures courtesy of @mitifotos and @moniqa from Unsplash.';
 
   footer.appendChild(footerItem);
 
