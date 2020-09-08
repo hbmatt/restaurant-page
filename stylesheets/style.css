@@ -1,0 +1,85 @@
+body {
+  font-family: 'Lora', Times, sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  padding: 21px 15px;
+  justify-content: space-between;
+  position: relative;
+}
+
+#left, #right {
+  width: 45%;
+  display: flex;
+}
+
+#left {
+  justify-content: flex-end;
+}
+
+#right {
+  justify-content: flex-start;
+}
+
+#logo {
+  position: absolute;
+  top: 15px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(../images/moniqa.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.nav-item {
+  padding: 15px 25px;
+  margin: 0 35px;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+#main {
+  display: flex;
+  margin: 3rem 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.col {
+  width: 50%;
+  padding: 2rem;
+}
+
+.col img {
+  width: 100%;
+}
+
+.col h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+#desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#desc p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  max-width: 400px;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
