@@ -56,8 +56,6 @@ function loadMenuContent() {
   article.appendChild(desc);
 
   main.appendChild(article);
-
-  console.log('Loaded Menu');
 }
 
 export { loadMenuContent }

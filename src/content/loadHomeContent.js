@@ -33,7 +33,6 @@ function loadHomeContent() {
 
   main.appendChild(figure);
   main.appendChild(article);
-  console.log('Loaded Home');
 }
 
 export { loadHomeContent }

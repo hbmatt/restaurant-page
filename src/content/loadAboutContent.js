@@ -23,8 +23,6 @@ function loadAboutContent() {
   article.appendChild(desc);
 
   main.appendChild(article);
-
-  console.log('Loaded About');
 }
 
 export { loadAboutContent }
