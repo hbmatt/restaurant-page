@@ -48,6 +48,7 @@ body {
   margin: 3rem 1.5rem;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .col {
